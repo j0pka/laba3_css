@@ -154,31 +154,10 @@ header p {
 }
 
 
-@media (max-width: 900px) {
-    .cat-card {
-        width: 45%;
-    }
-}
-
 @media (max-width: 650px) {
-    .left,
-    .right {
-        float: none;
-        width: 100%;
-        min-height: auto;
-    }
-
-
-    
-    .center {
-        width: 100%;
-    }
     .cat-card {
         width: 90%;
-    }
-    .menu a {
-        float: none;
-        display: inline-block;
-        margin: 3px;
+        margin: 1%;
     }
 }
+
